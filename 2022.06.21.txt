@@ -1,0 +1,165 @@
+강사님이 수정해준 부분
+
+CSS
+
+@charset "utf-8";
+
+.hide{
+    width: 0; height: 0;
+    font-size: 0; line-height: 0;
+    position: absolute;
+    visibility: hidden;
+}
+/* 공통 */
+body{
+    font:18px/ 30px Arial,sans-serif;
+    /* color: #ffffff; */
+  }
+  div#wrap{position:relative;}
+  header>div, article>div{
+      width: 1400px;
+      margin: 0 auto;
+  }
+  article{
+      padding: 80px 0;
+  }
+/* 
+  article h2{}
+  article .text{} */
+
+  img{
+      width: 100%;
+  }
+
+  /* header */
+  #wrap>header{
+      padding: 10px 0;
+      background-color: #000000;
+      position: relative;
+  }
+  header>div{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  header>div>h1>a{
+      font-family: '나눔고딕',sans-serif;
+      color: #ffffff;
+      font-size: 30px;
+  }
+  nav ul>li{
+      display: inline-block;
+      margin-left: 40px;
+      color: #ffffff;
+  }
+  nav ul>li>a{
+      font-size: 20px;
+      /* color: #ffffff; */
+  }
+  nav .btn{
+      display: inline-block;
+      margin-left: 20px;
+  }
+  /* btn */
+  header>#btn{
+      position: absolute;
+      width: 25px; height: 25px;
+      left: 200px;
+      top: 16px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  header>#btn>span{
+    display:block;
+    width:100%;
+    height:2px;
+    background-color:#fff;
+  }
+
+
+  /* box01 */
+  #box01{
+      padding: 0;
+      width: 100%;
+      height: calc(100vh - 70px);
+      /* overflow: hidden; */
+      position:relative;
+  }
+  #box01>h4{
+      position: absolute;
+      left: 400px; top: 150px;
+      width:250px; height: 200px;
+      border: 1px solid #ffffff;
+      margin: 0 auto;
+      line-height: 1.5;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+  }
+  #box01>h4>span{
+      display: block;
+  }
+  #box01>ul{
+      width: 400%;
+      height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+  #box01>ul>li{
+      width: 20%;
+      height:100%;
+      text-indent: -9999px;
+      background: url('../img/gucci\ background_main.jpg') no-repeat center top;
+      /* background-color:red; */
+  }
+  #box01>ul>li:nth-child(2){
+      background-image: url('../img/background01.jpg');
+      /* background-color:green; */
+  }
+  #box01>ul>li:nth-child(3){
+    /* background-color:rgb(131, 42, 42); */
+      background-image: url('../img/background02.jpg');
+  }
+  #box01>ul>li:nth-child(4){
+    /* background-color:yellow; */
+      background-image: url('../img/background03.jpg');
+  }
+  #box01>ul>li:nth-child(5){
+    /* background-color:yellow; */
+      background-image: url('../img/background04.jpg');
+  }
+  #box01 p.circle{
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    text-align:center;
+    background-color:#fff;
+  }
+
+  /* box02 */
+  #box02{
+padding-left:300px;
+width: 100%;
+box-sizing:border-box;
+background-color:yellow;
+  }
+  #box02>div{
+    background-color:pink;
+  }
+  #box02 #sec01{
+    width:1440px;
+    margin: 0 auto;
+    background-color:green;
+  }
+  #box02 #sec01>h2{}
+  #box02 #sec01>div{}
+  #box02 #sec01>div>figure>img{
+    margin: 0 auto;
+    width: 180px;
+
+  }
